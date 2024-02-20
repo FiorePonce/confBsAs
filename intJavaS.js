@@ -1,5 +1,5 @@
 
-const ticketValor=200
+const ticketValor=2000
 
 const estudiante=80
 
@@ -22,5 +22,8 @@ function calcTotal() {
     }
 
     document.getElementById("total").innerHTML=`Total a pagar: $${total}`
+}
 
+function borrar() {
+    document.getElementById("total").innerHTML = "Total a pagar: $ ";
 }
